@@ -9,5 +9,5 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  return <div className="container mt-24 mx-auto px-4">Hello</div>;
+  return <div className="container mt-24 mx-auto px-4"></div>;
 }
