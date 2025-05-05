@@ -82,6 +82,75 @@ export default function Navbar() {
           </div>
         </div>
       </section>
+
+      <section className="py-24 px-6 sm:px-20 text-center">
+        <h2 className="text-4xl font-bold mb-4">Plans and Pricing</h2>
+        <p className="text-gray-500 max-w-xl mx-auto mb-12"></p>
+
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {/* Demo Version */}
+          <div className="bg-white p-8 rounded-2xl shadow text-left">
+            <h3 className="text-purple-500 font-semibold text-sm mb-2"></h3>
+            <p className="text-4xl font-bold"> </p>
+            <p className="text-sm text-gray-400 mb-4"> </p>
+            <p className="text-gray-500 mb-6"></p>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li>
+                <span className="text-blue-600"></span>
+              </li>
+            </ul>
+            <button className="mt-6 w-full bg-purple-500 hover:bg-purple-600 text-white py-2 rounded">
+              Rent Now{" "}
+            </button>
+          </div>
+
+          {/* Standard Version */}
+          <div className="bg-white p-8 rounded-2xl shadow text-left">
+            <h3 className="text-blue-600 font-semibold text-sm mb-2"></h3>
+            <p className="text-4xl font-bold">$9</p>
+            <p className="text-sm text-gray-400 mb-4">per month</p>
+            <p className="text-gray-500 mb-6"></p>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li>
+                {" "}
+                <span className="text-blue-600"></span>
+              </li>
+            </ul>
+            <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded">
+              Rent Now
+            </button>
+          </div>
+
+          {/* Agency Version */}
+          <div className="bg-white p-8 rounded-2xl shadow text-left">
+            <h3 className="text-blue-600 font-semibold text-sm mb-2"></h3>
+            <p className="text-4xl font-bold">$29</p>
+            <p className="text-sm text-gray-400 mb-4"> </p>
+            <p className="text-gray-500 mb-6"></p>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li>
+                {" "}
+                <span className="text-blue-600"></span>
+              </li>
+            </ul>
+            <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded">
+              Rent Now
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
